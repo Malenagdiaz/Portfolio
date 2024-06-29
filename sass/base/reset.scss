@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+  color: $pale-pink;
+}
+
+body {
+  background-color: $midnight-blue;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: $ultra-violet;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $pale-pink;
+  border-radius: 5px;
+}
