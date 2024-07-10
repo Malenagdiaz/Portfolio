@@ -1,0 +1,39 @@
+.contenedor-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.intro {
+  width: 50%;
+}
+
+.contenedor-avatar {
+  width: 50%;
+}
+
+h2 {
+  font-size: 1.625rem;
+}
+
+h1 {
+  font-size: 3.125rem;
+}
+
+.siglas {
+  color: $rose-quartz;
+}
+
+.descripcion {
+  font-size: 2.125rem;
+  color: $rose-quartz;
+  display: inline;
+  border-right: 2px solid rgb(19, 1, 36);
+  animation: blink 0.5s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
