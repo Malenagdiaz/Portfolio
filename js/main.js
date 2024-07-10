@@ -1,3 +1,4 @@
+// ⋆˚✿˖° TIPEO ⋆˚✿˖°
 const descripcion = document.querySelector(".descripcion");
 const descripcionTextos = [
   "Desarrolladora web",
@@ -43,3 +44,22 @@ function tipeo() {
 }
 
 tipeo();
+
+// ⋆˚✿˖° SCROLL ⋆˚✿˖°
+
+const scrollButton = document.querySelector(".scroll");
+
+const funcionDeScroll = () => {
+  if (window.scrollY > 20) {
+    scrollButton.classList.add("show");
+  } else {
+    scrollButton.classList.remove("show");
+  }
+};
+
+window.addEventListener("scroll", funcionDeScroll);
+
+scrollButton.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});

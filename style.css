@@ -58,7 +58,8 @@ h1 {
   font-size: 2.125rem;
   color: #9a8c98;
   display: inline;
-  border-right: 2px solid rgb(19, 1, 36);
+  padding-right: 4px;
+  border-right: 2px solid #9a8c98;
   animation: blink 0.5s step-end infinite;
 }
 
@@ -96,6 +97,31 @@ h1 {
 
 .redes a:nth-child(3):hover {
   background-color: #d14836;
+}
+
+.scroll {
+  position: fixed;
+  bottom: -50px;
+  right: 20px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  background-color: #f2e9e4;
+  border-radius: 50px;
+  text-align: center;
+  transition: bottom 0.3s ease;
+}
+
+.scroll.show {
+  bottom: 20px;
+}
+
+.scroll i {
+  font-size: 24px;
+  cursor: pointer;
+  color: #4a4e69;
+  line-height: 40px;
+  transition: transform 0.3s ease;
 }
 
 header {
