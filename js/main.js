@@ -46,7 +46,6 @@ function tipeo() {
 tipeo();
 
 // ⋆˚✿˖° SCROLL ⋆˚✿˖°
-
 const scrollButton = document.querySelector(".scroll");
 
 const funcionDeScroll = () => {
@@ -60,6 +59,8 @@ const funcionDeScroll = () => {
 window.addEventListener("scroll", funcionDeScroll);
 
 scrollButton.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });
