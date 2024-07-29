@@ -1,0 +1,93 @@
+.seccion-contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-contacto {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: $soft-beige;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-contacto {
+  font-size: 1.875rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $midnight-blue;
+}
+
+.titulo-contacto span i {
+  margin-right: 7px;
+  color: $rose-quartz;
+}
+
+#formulario-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: $midnight-blue;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid $rose-quartz;
+  border-radius: 5px;
+  color: black;
+}
+
+input:focus,
+textarea:focus {
+  border-color: $ultra-violet;
+  outline: none;
+  color: black;
+}
+
+.boton-enviar {
+  margin: auto;
+  position: relative;
+  width: 100px;
+  height: 27px;
+  border: none;
+  border-radius: 12px;
+  background-color: $rose-quartz;
+  overflow: hidden;
+  margin-top: 10px;
+  box-shadow: 0 0 15px $pale-pink, 0 0 15px $pale-pink;
+}
+
+.boton-enviar::before {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: $midnight-blue;
+  border-radius: inherit;
+  top: 0;
+  left: -100%;
+}
+
+.boton-enviar:hover::before {
+  left: 0;
+  transition: 1.1s;
+  z-index: -1;
+}
+
+.boton-enviar:hover {
+  z-index: 10;
+  transform: scale(1.1);
+  transition: 1.1s;
+}
+
+.contenedor-mensaje {
+  display: none;
+}

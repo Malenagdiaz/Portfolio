@@ -52,16 +52,40 @@
 
     <!-- ⋆˚✿˖° SOBRE MI ⋆˚✿˖° -->
     <section id="SobreMi" class="contenedor-sobremi">
-      <h2><i class="fa-solid fa-user"></i>Sobre mí</h2>
-      <p>Me llamo Malena Gerez Diaz. En el 2023 me introduje en el mundo de la programación, enfocándome específicamente
-        en el
-        Desarrollo Frontend. Desde entonces, he estado dedicada a estudiar y aplicar lo aprendido en la creación de
-        proyectos personales y académicos. Además de programar, tengo un gran
-        interés por
-        el fútbol.</p>
-      <h3>Mis habilidades</h3>
+      <h2 class="titulo-sobremi"><span><i class="fa-solid fa-user"></i></span>Sobre mí</h2>
+      <div class="container-sobremi">
+        <div class="icon-container">
+          <img src="./assets/icon-sobremi.png" alt="icon-sobremi" class="icon-sobremi">
+        </div>
+        <div class="texto-sobremi">
+          <p class="descripcion-sobremi">Me llamo Malena Gerez Diaz. En el 2023 me introduje en el mundo de la
+            programación, enfocándome
+            específicamente en el <span>Desarrollo Frontend</span>. Desde entonces, <span>he estado dedicada a estudiar
+              y
+              aplicar lo
+              aprendido en la creación de proyectos personales y académicos.</span> Me apasiona el diseño de interfaces
+            y la
+            experiencia
+            del usuario, y siempre estoy buscando nuevas tecnologías y metodologías para mejorar mis habilidades.
+          </p>
+          <p class="descripcion-sobremi">Soy atenta y me esfuerzo por realizar cada tarea con cuidado y dedicación. Mi
+            actitud positiva y amable
+            contribuye a
+            crear un ambiente de trabajo agradable y productivo. <span>Estoy siempre dispuesta a aprender y crecer,
+              aportando
+              una energía
+              fresca y entusiasta a cada proyecto en el que me involucro.</span>
+          </p>
+          <p class="descripcion-sobremi">
+            Además de programar, tengo un gran interés por el fútbol. Disfruto de ver partidos y seguir las últimas
+            novedades del
+            deporte.
+          </p>
+        </div>
+      </div>
+      <h3><span><i class="fa-solid fa-laptop-code"></i></span>Mis habilidades</h3>
       <div class="contenedor-conocimientos">
-        <div>
+        <div class="conocimientos">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
             <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
             <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
@@ -71,8 +95,9 @@
               d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
             </path>
           </svg>
+          <p class="conocimiento-texto">HTML5</p>
         </div>
-        <div>
+        <div class="conocimientos">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
             <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
             <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
@@ -83,16 +108,18 @@
               d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
             </path>
           </svg>
+          <p class="conocimiento-texto">CSS</p>
         </div>
-        <div>
+        <div class="conocimientos">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
             <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
             <path fill="#000001"
               d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z">
             </path>
           </svg>
+          <p class="conocimiento-texto">JAVASCRIPT</p>
         </div>
-        <div>
+        <div class="conocimientos">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
             <path fill="#f06292" fill-rule="evenodd"
               d="M24.042,4.032C35.065,4.032,44,12.967,44,23.99	c0,11.022-8.935,19.958-19.958,19.958c-11.022,0-19.958-8.935-19.958-19.958C4.085,12.967,13.02,4.032,24.042,4.032L24.042,4.032z"
@@ -101,8 +128,9 @@
               d="M36.561,12.574c-0.904-3.545-6.781-4.71-12.343-2.734c-3.31,1.176-6.894,3.022-9.471,5.432 c-3.064,2.866-3.552,5.36-3.351,6.402c0.71,3.677,5.749,6.081,7.82,7.865v0.011c-0.611,0.301-5.081,2.563-6.127,4.876 c-1.104,2.44,0.176,4.191,1.023,4.427c2.625,0.73,5.318-0.583,6.766-2.742c1.397-2.084,1.281-4.774,0.674-6.113 c0.837-0.221,1.814-0.32,3.054-0.175c3.501,0.409,4.188,2.595,4.056,3.51c-0.131,0.915-0.866,1.418-1.111,1.57 c-0.246,0.152-0.32,0.205-0.3,0.317c0.03,0.164,0.143,0.158,0.353,0.123c0.288-0.049,1.838-0.744,1.905-2.433 c0.084-2.144-1.97-4.542-5.608-4.48c-1.498,0.026-2.44,0.168-3.121,0.422c-0.05-0.057-0.102-0.114-0.154-0.171 c-2.249-2.4-6.407-4.097-6.231-7.323c0.064-1.173,0.472-4.261,7.989-8.007c6.158-3.069,11.088-2.224,11.94-0.353 c1.217,2.674-2.635,7.643-9.03,8.36c-2.437,0.273-3.72-0.671-4.039-1.023c-0.336-0.37-0.386-0.387-0.511-0.317 c-0.204,0.113-0.075,0.44,0,0.635c0.191,0.497,0.975,1.378,2.31,1.817c1.175,0.386,4.036,0.597,7.496-0.741 C34.424,20.229,37.45,16.059,36.561,12.574z M20.076,30.638c0.29,1.074,0.258,2.076-0.041,2.983c-0.033,0.101-0.07,0.2-0.11,0.299 c-0.04,0.098-0.083,0.196-0.129,0.292c-0.231,0.48-0.542,0.929-0.922,1.344c-1.16,1.265-2.78,1.743-3.474,1.34 c-0.75-0.435-0.374-2.218,0.97-3.64c1.446-1.529,3.527-2.512,3.527-2.512l-0.003-0.006C19.954,30.705,20.015,30.672,20.076,30.638z">
             </path>
           </svg>
+          <p class="conocimiento-texto">SASS</p>
         </div>
-        <div>
+        <div class="conocimientos">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
             <path fill="#80deea"
               d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z">
@@ -115,91 +143,116 @@
             </path>
             <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
           </svg>
+          <p class="conocimiento-texto">REACT</p>
         </div>
-        <div>
+        <div class="conocimientos">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
             <path fill="#F4511E"
               d="M42.2,22.1L25.9,5.8C25.4,5.3,24.7,5,24,5c0,0,0,0,0,0c-0.7,0-1.4,0.3-1.9,0.8l-3.5,3.5l4.1,4.1c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3c0,0.5-0.1,0.9-0.3,1.3l4,4c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3s-1.3,3-3,3c-1.7,0-3-1.3-3-3c0-0.5,0.1-0.9,0.3-1.3l-4-4c-0.1,0-0.2,0.1-0.3,0.1v10.4c1.2,0.4,2,1.5,2,2.8c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.3,0.8-2.4,2-2.8V18.8c-1.2-0.4-2-1.5-2-2.8c0-0.5,0.1-0.9,0.3-1.3l-4.1-4.1L5.8,22.1C5.3,22.6,5,23.3,5,24c0,0.7,0.3,1.4,0.8,1.9l16.3,16.3c0,0,0,0,0,0c0.5,0.5,1.2,0.8,1.9,0.8s1.4-0.3,1.9-0.8l16.3-16.3c0.5-0.5,0.8-1.2,0.8-1.9C43,23.3,42.7,22.6,42.2,22.1z">
             </path>
           </svg>
+          <p class="conocimiento-texto">GIT</p>
         </div>
-        <div>
+        <div class="conocimientos">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
             <path fill="#00acc1"
               d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z">
             </path>
           </svg>
+          <p class="conocimiento-texto">TAILWIND CSS</p>
         </div>
       </div>
     </section>
 
     <!-- ⋆˚✿˖° PROYECTOS ⋆˚✿˖° -->
     <section id="Proyectos" class="contenedor-proyectos">
-      <h2><i class="fas fa-code"></i> Mis proyectos</h2>
+      <h2 class="titulo-proyectos"><span><i class="fas fa-code"></i></span>Mis proyectos</h2>
       <div class="los-proyectos">
         <div class="proyecto">
-          <img src="./assets/fulbo.png" alt="Proyecto fulbo">
-          <h3>Fulbo</h3>
-          <p>A través de una API, posibilita administrar jugadores de fútbol usando solicitudes GET, POST, PUT y DELETE,
-            simplificando la incorporación, modificación, eliminación y visualización dinámica de datos.</p>
-          <div class="enlaces-proyecto">
-            <a href="https://github.com/Malenagdiaz/Fulbo" target="_blank"><i class="fab fa-github-alt"></i> Código</a>
-            <a href="https://malenagdiaz.github.io/Fulbo/" target="_blank"><i class="fa-solid fa-link"></i> Visitar
-              sitio</a>
+          <div class="contenedor-img">
+            <img src="./assets/randomcards.png" alt="Proyecto randomCards" id="proyecto-img">
+            <div class="contenido-proyecto">
+              <h3>RandomCards</h3>
+              <p>Con React, crea cartas aleatorias de futbolistas al pulsar un botón, presentando información variada en
+                cada
+                clic.</p>
+              <div class="enlaces-proyecto">
+                <a href="https://github.com/Malenagdiaz/randomCards" target="_blank"><i class="fab fa-github-alt"></i>
+                  Código</a>
+                <a href="https://randomcardsplayer.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i>
+                  Visitar
+                  sitio</a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="proyecto">
-          <img src="./assets/randomcards.png" alt="Proyecto randomCards">
-          <h3>RandomCards</h3>
-          <p>Con React, crea cartas aleatorias de futbolistas al pulsar un botón, presentando información variada en
-            cada clic.</p>
-          <div class="enlaces-proyecto">
-            <a href="https://github.com/Malenagdiaz/randomCards" target="_blank"><i class="fab fa-github-alt"></i>
-              Código</a>
-            <a href="https://randomcardsplayer.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i> Visitar
-              sitio</a>
+          <div class="contenedor-img">
+            <img src="./assets/editordememes.png" alt="Proyecto editor de memes" id="proyecto-img">
+            <div class="contenido-proyecto">
+              <h3>Editor de Memes</h3>
+              <p>Una plataforma para diseñar, personalizar y guardar memes. Puedes crear memes divertidos y
+                compartirlos.</p>
+              <div class="enlaces-proyecto">
+                <a href="https://github.com/Malenagdiaz/EditorDeMemes-proyecto" target="_blank"><i
+                    class="fab fa-github-alt"></i> Código</a>
+                <a href="https://malenagdiaz.github.io/EditorDeMemes-proyecto/" target="_blank"><i
+                    class="fa-solid fa-link"></i> Visitar sitio</a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="proyecto">
-          <img src="./assets/editordememes.png" alt="Proyecto editor de memes">
-          <h3>Editor de Memes</h3>
-          <p>Una plataforma para diseñar, personalizar y guardar memes.</p>
-          <div class="enlaces-proyecto">
-            <a href="https://github.com/Malenagdiaz/EditorDeMemes-proyecto" target="_blank"><i
-                class="fab fa-github-alt"></i> Código</a>
-            <a href="https://malenagdiaz.github.io/EditorDeMemes-proyecto/" target="_blank"><i
-                class="fa-solid fa-link"></i>
-              Visitar sitio</a>
+          <div class="contenedor-img">
+            <img src="./assets/formulario.png" alt="Proyecto formulario" id="proyecto-img">
+            <div class="contenido-proyecto">
+              <h3>Formulario</h3>
+              <p>Desarrollé un formulario simple con Tailwind CSS, fácil de usar en cualquier dispositivo.
+              <p>
+              <div class="enlaces-proyecto">
+                <a href="https://github.com/Malenagdiaz/Formulario-Tailwind" target="_blank"><i
+                    class="fab fa-github-alt"></i>
+                  Código</a>
+                <a href="https://malenagdiaz.github.io/Formulario-Tailwind/" target="_blank"><i
+                    class="fa-solid fa-link"></i>
+                  Visitar sitio</a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="proyecto">
-          <img src="./assets/formulario.png" alt="Proyecto formulario">
-          <h3>Formulario</h3>
-          <p>Proyecto básico en el que desarrollé un formulario utilizando Tailwind CSS.</p>
-          <div class="enlaces-proyecto">
-            <a href="https://github.com/Malenagdiaz/Formulario-Tailwind" target="_blank"><i
-                class="fab fa-github-alt"></i>
-              Código</a>
-            <a href="https://malenagdiaz.github.io/Formulario-Tailwind/" target="_blank"><i
-                class="fa-solid fa-link"></i>
-              Visitar sitio</a>
+          <div class="contenedor-img">
+            <img src="./assets/fulbo.png" alt="Proyecto fulbo" id="proyecto-img">
+            <div class="contenido-proyecto">
+              <h3>Fulbo</h3>
+              <p>Administra jugadores de fútbol mediante una API con solicitudes GET, POST, PUT y DELETE, facilitando la
+                gestión de datos.</p>
+              <div class="enlaces-proyecto">
+                <a href="https://github.com/Malenagdiaz/Fulbo" target="_blank"><i class="fab fa-github-alt"></i>
+                  Código</a>
+                <a href="https://malenagdiaz.github.io/Fulbo/" target="_blank"><i class="fa-solid fa-link"></i> Visitar
+                  sitio</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ⋆˚✿˖° CONTACTO ⋆˚✿˖° -->
-    <section id="Contacto" class="contenedor-contacto">
-      <h2><i class="fas fa-envelope"></i> ¡Envíame un mensaje!</h2>
-      <form id="formulario-contacto" action="mailto:mgerezdiaz@gmail.com" method="post" enctype="text/plain">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <label for="email">Mail:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-        <input type="submit" value="Enviar">
-      </form>
+    <section id="Contacto" class="seccion-contacto">
+      <div class="contenedor-contacto">
+        <h2 class="titulo-contacto"><span><i class="fas fa-envelope"></i></span> ¡Envíame un mensaje!</h2>
+        <form id="formulario-contacto" action="mailto:mgerezdiaz@gmail.com" method="post" enctype="text/plain">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Mail:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          <button type="submit" class="boton-enviar">Enviar</button>
+        </form>
+      </div>
       <div class="contenedor-mensaje">
         <button><i class="fa-solid fa-xmark"></i></button>
         <p class="mensaje">¡Tu mensaje ha sido enviado con éxito!</p>

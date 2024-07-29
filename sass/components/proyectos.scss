@@ -1,0 +1,108 @@
+.contenedor-proyectos {
+  margin-bottom: 20px;
+}
+
+.titulo-proyectos {
+  text-align: center;
+  font-size: 1.875rem;
+  margin-bottom: 25px;
+}
+
+.titulo-proyectos span i {
+  margin-right: 7px;
+  color: $rose-quartz;
+}
+
+.los-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.proyecto {
+  width: calc(50% - 20px);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.contenedor-img {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contenedor-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.contenido-proyecto {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyecto:hover .contenido-proyecto {
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.contenido-proyecto h3 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: $rose-quartz;
+}
+
+.contenido-proyecto p,
+.contenido-proyecto .enlaces-proyecto {
+  visibility: hidden;
+}
+
+.proyecto:hover .contenido-proyecto p,
+.proyecto:hover .contenido-proyecto .enlaces-proyecto {
+  visibility: visible;
+}
+
+.contenido-proyecto p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.enlaces-proyecto {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.enlaces-proyecto a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid $midnight-blue;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.enlaces-proyecto a i {
+  margin-right: 5px;
+  color: $rose-quartz;
+}
+
+.enlaces-proyecto a:hover {
+  background-color: $midnight-blue;
+  color: $pale-pink;
+}

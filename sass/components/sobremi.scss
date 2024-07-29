@@ -1,0 +1,29 @@
+.titulo-sobremi {
+  text-align: center;
+  font-size: 1.875rem;
+}
+
+.titulo-sobremi span i {
+  margin-right: 7px;
+  color: $rose-quartz;
+}
+
+.container-sobremi {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.texto-sobremi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.descripcion-sobremi {
+  font-size: 1.25rem;
+}
+
+.descripcion-sobremi span {
+  color: $rose-quartz;
+}

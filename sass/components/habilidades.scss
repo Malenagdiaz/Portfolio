@@ -1,0 +1,55 @@
+h3 {
+  text-align: center;
+  font-size: 1.875rem;
+  margin-bottom: 25px;
+}
+
+h3 span i {
+  margin-right: 7px;
+  color: $rose-quartz;
+}
+
+.contenedor-conocimientos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.conocimientos {
+  width: calc(100% / 3);
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.conocimientos svg {
+  width: 250px;
+  background: $pale-pink;
+  padding: 10px 20px;
+  height: 250px;
+  border-radius: 20px;
+  transition: border-radius 0.5s ease, filter 0.5s ease;
+}
+
+.conocimientos:hover svg {
+  border-radius: 50%;
+  filter: blur(8px);
+}
+
+.conocimiento-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: $midnight-blue;
+  font-size: 1.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.conocimientos:hover .conocimiento-texto {
+  opacity: 1;
+  color: $midnight-blue;
+  font-size: 1.5rem;
+}
