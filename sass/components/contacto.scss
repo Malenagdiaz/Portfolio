@@ -1,11 +1,12 @@
 .seccion-contacto {
   display: flex;
   justify-content: center;
+  padding: 100px;
 }
 
 .contenedor-contacto {
-  width: 100%;
-  max-width: 500px;
+  width: 650px;
+  height: 535px;
   padding: 20px;
   background-color: $soft-beige;
   border-radius: 10px;
@@ -15,7 +16,7 @@
 .titulo-contacto {
   font-size: 1.875rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-block: 20px;
   color: $midnight-blue;
 }
 
@@ -37,10 +38,10 @@ label {
 
 input,
 textarea {
-  margin-bottom: 15px;
-  padding: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
   font-size: 1rem;
-  border: 1px solid $rose-quartz;
+  border: 1px solid #9a8c98;
   border-radius: 5px;
   color: black;
 }
@@ -55,8 +56,8 @@ textarea:focus {
 .boton-enviar {
   margin: auto;
   position: relative;
-  width: 100px;
-  height: 27px;
+  width: 105px;
+  height: 30px;
   border: none;
   border-radius: 12px;
   background-color: $rose-quartz;

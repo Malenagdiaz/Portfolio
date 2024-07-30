@@ -11,10 +11,6 @@ body {
   background-color: #22223b;
 }
 
-main {
-  padding: 100px;
-}
-
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -32,6 +28,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 100px;
 }
 
 .intro {
@@ -124,6 +121,10 @@ h1 {
   transition: transform 0.3s ease;
 }
 
+.contenedor-sobremi {
+  padding: 100px;
+}
+
 .titulo-sobremi {
   text-align: center;
   font-size: 1.875rem;
@@ -211,7 +212,7 @@ h3 span i {
 }
 
 .contenedor-proyectos {
-  margin-bottom: 20px;
+  padding: 100px;
 }
 
 .titulo-proyectos {
@@ -322,11 +323,12 @@ h3 span i {
 .seccion-contacto {
   display: flex;
   justify-content: center;
+  padding: 100px;
 }
 
 .contenedor-contacto {
-  width: 100%;
-  max-width: 500px;
+  width: 650px;
+  height: 535px;
   padding: 20px;
   background-color: #c9ada7;
   border-radius: 10px;
@@ -336,7 +338,7 @@ h3 span i {
 .titulo-contacto {
   font-size: 1.875rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-block: 20px;
   color: #22223b;
 }
 
@@ -358,8 +360,8 @@ label {
 
 input,
 textarea {
-  margin-bottom: 15px;
-  padding: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
   font-size: 1rem;
   border: 1px solid #9a8c98;
   border-radius: 5px;
@@ -376,8 +378,8 @@ textarea:focus {
 .boton-enviar {
   margin: auto;
   position: relative;
-  width: 100px;
-  height: 27px;
+  width: 105px;
+  height: 30px;
   border: none;
   border-radius: 12px;
   background-color: #9a8c98;
@@ -468,7 +470,7 @@ ul li a:hover::after {
 }
 
 footer {
-  margin-block: 10px;
+  margin-bottom: 25px;
 }
 
 .copyright {
